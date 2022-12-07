@@ -61,7 +61,9 @@ int main()
     }
 }
 ```
-## EX 3 -- LED SWITCH
+
+
+## EX 3 -- PUSH BUTTON
 ```
 #include<LPC214x.h>  
 #define led (1<<2)   
@@ -87,6 +89,8 @@ int main(void)
  }
 
 ```
+![image](https://user-images.githubusercontent.com/93427443/206143753-5bf6c764-3dcf-422c-bbb7-3cafd71f2b5c.png)
+
 ## EX 4 -- LCD
 ```
 #include <lpc214x.h>
@@ -161,6 +165,8 @@ int main(void)
 }
 
 ```
+![image](https://user-images.githubusercontent.com/93427443/206143988-97673b91-d291-4931-82cb-87944052a33b.png)
+
 ## EX 5 -- KEYPAD
 ```
 #include <lpc21xx.h> 
@@ -299,6 +305,8 @@ void LCD_init()
  
 }
 ```
+![image](https://user-images.githubusercontent.com/93427443/206144175-f291a018-8f2e-4d26-a5b0-be3a4953e720.png)
+
 ## EX-6 -- ADC
 ```
 #include <lpc214x.h>
@@ -325,6 +333,10 @@ int main()
     }
 }
 ```
+![image](https://user-images.githubusercontent.com/93427443/206144329-2635547d-e0a6-4693-b4dd-488e2dc02fbe.png)
+![image](https://user-images.githubusercontent.com/93427443/206144452-012a1978-57cd-4eb0-983b-5758c35e74b2.png)
+![image](https://user-images.githubusercontent.com/93427443/206144514-7bc61f67-b073-4d99-aa94-7161636403ab.png)
+
 ## EX-7 -- TEMPERATURE SENSOR
 ```
 #include<lpc214x.h>
@@ -351,6 +363,15 @@ int main()
     }
 }
 ```
+```
+Calculation of sensitivity 
+% of sensitivity is   
+S=  (T2-T1)/(A2-A1)*100
+```
+![image](https://user-images.githubusercontent.com/93427443/206144609-372fc9d9-1b8e-472e-b441-88f5829adedd.png)
+![image](https://user-images.githubusercontent.com/93427443/206144657-36f2c69a-8be7-4fb5-bea5-1d63d612c2fc.png)
+![image](https://user-images.githubusercontent.com/93427443/206144914-0a9696bc-53a6-41da-b0f8-6021ae8b9d0b.png)
+
 ## EX-8 -- 7 SEGMENT
 ```
 #include <LPC214x.H>
@@ -389,6 +410,8 @@ int main(void)
 		
 	}}
 ```
+![image](https://user-images.githubusercontent.com/93427443/206145063-97f9ff23-e5f3-4cc5-96ec-07e57380ce8f.png)
+
 ## EX-9 -- UART
 ```
 #include <LPC213x.H>              
@@ -415,3 +438,4 @@ int main (void)  {
   }                               
 }
 ```
+![image](https://user-images.githubusercontent.com/93427443/206145178-2ac24c31-6bf3-4a3d-90da-b9372854b3bc.png)
