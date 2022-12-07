@@ -298,7 +298,6 @@ void LCD_init()
   delay_ms(10) ;
  
 }
-![keypad](https://user-images.githubusercontent.com/93427443/206140718-22a74ec0-b0d8-4cd5-b93a-d61d33ffd575.png)
 ```
 ## EX-6 -- ADC
 ```
