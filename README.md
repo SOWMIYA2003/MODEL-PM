@@ -61,8 +61,7 @@ int main()
     }
 }
 ```
-
-
+![image](https://user-images.githubusercontent.com/93427443/206145549-c0c792c3-79bb-4554-9d06-49f62f9083bd.png)
 ## EX 3 -- PUSH BUTTON
 ```
 #include<LPC214x.h>  
